@@ -1,0 +1,118 @@
+
+.main-body-con{
+    width: 70%;
+    min-width: 650px;
+    height: auto;
+    min-height: 500px;
+    background-color: aqua;
+    margin: 10px auto;
+}
+.slider-con{
+    height: 400px;
+    background-color: burlywood;
+}
+.slider-right-menu{
+    background-color: red;
+    height: 400px;
+}
+
+
+.medium-menu-con{
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.right-menu-con{
+    background-color: green;
+    height: 400px;
+}
+
+.article-con{
+    margin-top: 10px;
+   
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: gray;
+ 
+    
+}
+.article-image-con{
+    margin: 10px;
+    max-width: 20%;
+    min-width: 20%;
+    height: auto;
+    border: 10px solid white;
+    outline: 5px solid red;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   float: left;
+    
+}
+
+.article-image{
+    width: 100%;
+    height: 120px;
+}
+
+.article-text-con{
+    width: 65%;
+    height: 150px;
+   margin: 10px 20px;
+    background-color: aqua;
+    float: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.article-text-con a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.article-link{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+   
+    -webkit-box-pack: justify;
+   
+    -ms-flex-pack: justify;
+   
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+.article-link span a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    display: block;
+    padding: 6px 25px;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
+.article-link span a:hover{
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+@media screen and (max-width:1200px){
+    .main-body-con{width: 100%;}
+}
+
+
+
+
+
+
+
+
